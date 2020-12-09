@@ -1,0 +1,205 @@
+/* https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/ */
+/* typography */
+
+.largeTitle {
+    font-family: -apple-system, sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 41px;
+}
+
+.title1 {
+    font-family: -apple-system, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.title2 {
+    font-family: -apple-system, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.title3 {
+    font-family: -apple-system, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.headline {
+    font-family: -apple-system, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.body {
+    font-family: -apple-system, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.callout {
+    font-family: -apple-system, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.subhead {
+    font-family: -apple-system, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.footnote {
+    font-family: -apple-system, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.caption1 {
+    font-family: -apple-system, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.caption2 {
+    font-family: -apple-system, sans-serif;
+    font-weight: 11px;
+    font-weight: 400;
+    line-height: 13px;
+}
+
+/* colors */
+
+* {
+    --black: rgba(0, 0, 0, 1);
+    --white: rgba(255, 255, 255, 1);
+    --gray: rgba(240, 240, 240, 1);
+    --red: rgba(255, 0, 0, 1);
+    --green: rgba(0, 255, 0, 1);
+    --blue: rgba(0, 0, 255, 1);
+}
+
+/* reset */
+
+html, body, header, section, div, p, ul, ol {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+/* defaults */
+
+body {
+    font-family: -apple-system-body, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+* {
+    font-size: 1.2em;
+}
+
+p { max-width: 800px }
+
+/* colors */
+
+body {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+a {
+    color: var(--blue);
+}
+
+a:hover {
+    color: var(--black);
+    background-color: var(--gray);
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--black);
+        color: var(--white);
+    }
+
+    a {
+        color: var(--green);
+    }
+
+    a:hover {
+        color: var(--black);
+        background-color: var(--gray);
+    }
+}
+
+/* … */
+
+.vMargin {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.vMargin_2x {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.vList * {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .vList a {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media (min-width: 800px) {}
