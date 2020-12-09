@@ -115,10 +115,6 @@ body {
     line-height: 1.2;
 }
 
-* {
-    font-size: 1.2em;
-}
-
 p { max-width: 800px }
 
 /* colors */
