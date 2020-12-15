@@ -138,6 +138,8 @@ a:hover {
     background-color: var(--gray);
 }
 
+/* light/dark */
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: var(--black);
@@ -201,9 +203,9 @@ a:hover {
     margin: 0 auto;
 }
 
-/* desktop */
+/* animation */
 
-@media (min-width: 800px) {}
+
 
 /* mobile */
 
@@ -213,3 +215,7 @@ a:hover {
         padding-bottom: 8px;
     }
 }
+
+/* desktop */
+
+@media (min-width: 800px) {}
