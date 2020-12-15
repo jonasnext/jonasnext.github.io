@@ -170,11 +170,9 @@ a:hover {
     display: block;
 }
 
-@media (max-width: 600px) {
-    .vList a {
-        padding-top: 8px;
-        padding-bottom: 8px;
-    }
+.smallcaps {
+    text-transform: lowercase;
+    font-variant: small-caps;
 }
 
 .center {
@@ -203,4 +201,15 @@ a:hover {
     margin: 0 auto;
 }
 
+/* desktop */
+
 @media (min-width: 800px) {}
+
+/* mobile */
+
+@media (max-width: 600px) {
+    .vList a {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
