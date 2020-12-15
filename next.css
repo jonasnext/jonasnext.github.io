@@ -108,6 +108,10 @@ a, a:visited {
 
 /* defaults */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: -apple-system-body, sans-serif;
     font-size: 17px;
