@@ -166,6 +166,18 @@ a:hover {
 
 /* … */
 
+a.text-link {
+    display: flex;
+    justify-content: center;
+    transform: scale(1);
+    transition: all ease-in-out 100ms;
+}
+
+a.text-link:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 100ms;
+}
+
 .vMargin {
     margin-top: 16px;
     margin-bottom: 16px;
