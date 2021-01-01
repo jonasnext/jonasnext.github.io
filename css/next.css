@@ -228,6 +228,9 @@ a.text-link:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.vCenter_h {
     height: 100vh;
 }
 
