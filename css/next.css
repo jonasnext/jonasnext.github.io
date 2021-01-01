@@ -1,5 +1,20 @@
-/* https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/ */
 /* typography */
+
+.title00 {
+    font-family: -apple-system, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 41px;
+}
+
+.title0 {
+    font-family: -apple-system, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 41px;
+}
+
+/* https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/ */
 
 .largeTitle {
     font-family: -apple-system, sans-serif;
@@ -85,7 +100,7 @@
     --white: rgba(255, 255, 255, 1);
     --gray: rgba(240, 240, 240, 1);
     --gray1: rgba(200, 200, 200, 1);
-    --gray2: rgba(130, 130, 130, 1);
+    --gray2: rgba(60, 60, 60, 1);
     --red: rgba(255, 0, 0, 1);
     --green: rgba(0, 255, 0, 1);
     --blue: rgba(0, 0, 255, 1);
@@ -213,11 +228,20 @@ a.text-link:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .textCenter {
     text-align: center;
+}
+
+.hPadding {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.vPadding {
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .mainContainer {
