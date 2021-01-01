@@ -228,6 +228,7 @@ a.text-link:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .textCenter {
