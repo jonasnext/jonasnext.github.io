@@ -95,15 +95,25 @@
 
 /* colors */
 
+/* https://developer.apple.com/design/human-interface-guidelines/watchos/visual/color/ */
+
 * {
     --black: rgba(0, 0, 0, 1);
     --white: rgba(255, 255, 255, 1);
-    --gray: rgba(240, 240, 240, 1);
     --gray1: rgba(200, 200, 200, 1);
     --gray2: rgba(60, 60, 60, 1);
-    --red: rgba(255, 0, 0, 1);
-    --green: rgba(0, 255, 0, 1);
-    --blue: rgba(0, 0, 255, 1);
+
+    --red: rgba(250, 17, 79, 1);
+    --orange0: rgba(255, 59, 48, 1);
+    --orange1: rgba(255, 149, 0, 1);
+    --yellow: rgba(255, 230, 32, 1);
+    --green0: rgba(4, 222, 113, 1);
+
+    --green1: rgba(0, 245, 234, 1);
+    --blue1: rgba(90, 200, 250, 1);
+    --blue0: rgba(32, 148, 250, 1);
+    --purple: rgba(120, 122, 255, 1);
+    --gray: rgba(242, 244, 255, 1);
 }
 
 /* reset */
@@ -152,7 +162,7 @@ body {
 }
 
 a {
-    color: var(--blue);
+    color: var(--blue0);
 }
 
 a:hover {
@@ -170,7 +180,7 @@ a:hover {
     }
 
     a {
-        color: var(--green);
+        color: var(--green0);
     }
 
     a:hover {
