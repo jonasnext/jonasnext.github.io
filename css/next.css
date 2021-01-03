@@ -170,7 +170,7 @@ body {
 }
 
 a {
-    color: var(--blue0);
+    color: var(--gray);
 }
 
 a:hover {
