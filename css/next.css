@@ -241,7 +241,7 @@ a.text-link:hover {
 }
 
 .vCenter_h {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .textCenter {
