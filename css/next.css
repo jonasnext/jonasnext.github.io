@@ -100,8 +100,19 @@
 * {
     --black: rgba(0, 0, 0, 1);
     --white: rgba(255, 255, 255, 1);
+
     --gray1: rgba(220, 220, 220, 1);
     --gray2: rgba(40, 40, 40, 1);
+
+    /* light titanium */
+    --light0: rgba(194, 173, 149, 1);
+    /* rose gold */
+    --light1: rgba(236, 165, 132, 1);
+
+    /* dark titanium */
+    --dark0: rgba(85, 78, 64, 1);
+    /* yellow gold */
+    --dark1: rgba(212, 166, 124, 1);
 
     --red: rgba(250, 17, 79, 1);
     --orange0: rgba(255, 59, 48, 1);
@@ -269,13 +280,13 @@ a.text-link:hover {
 /* animation */
 
 @keyframes background-animation-light {
-    0% { background-color: var(--white); }
-    100% { background-color: var(--gray1); }
+    0% { background-color: var(--light0); }
+    100% { background-color: var(--light1); }
 }
 
 @keyframes background-animation-dark {
-    0% { background-color: var(--black); }
-    100% { background-color: var(--gray2); }
+    0% { background-color: var(--dark0); }
+    100% { background-color: var(--dark1); }
 }
 
 /* mobile */
