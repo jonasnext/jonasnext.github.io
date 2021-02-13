@@ -147,7 +147,7 @@ a, a:visited {
     box-sizing: border-box;
 }
 
-body {
+.main {
     font-family: -apple-system-body, sans-serif;
     font-size: 17px;
     font-weight: 400;
@@ -163,7 +163,7 @@ em {
 
 /* colors: light */
 
-body {
+.main {
     background-color: var(--white);
     color: var(--black);
     animation: background-animation-light 8s infinite ease-in-out alternate;
@@ -181,7 +181,7 @@ a:hover {
 /* colors: dark */
 
 @media (prefers-color-scheme: dark) {
-    body {
+    .main {
         background-color: var(--black);
         color: var(--white);
         animation: background-animation-dark 8s infinite ease-in-out alternate;
